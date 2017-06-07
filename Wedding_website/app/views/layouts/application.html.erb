@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Jason and Talia</title>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Euphoria+Script|TP+Sarif|Homemade+Apple|Stalemate|Montserrat" rel="stylesheet">
+
+    <!--Style Sheet-->
+    <!-- <link href="home.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet"> -->
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <!--Count Down Timer-->
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+  <body>
+      <%= render 'shared/nav' %>
+    <%= yield %>
+  </body>
+</html>
