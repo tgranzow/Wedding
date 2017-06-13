@@ -54,19 +54,6 @@
 }
 
 
-/*.page_1 {
-     height: 100px;
-     width: 100px;
-     background-color: rgba(255, 255, 255, .50);
-     border-radius: 55px;
-     display: inline-block;
-     margin-bottom: -50px;
- }
-
- .logo_image img {
-     height: 100px;
- }*/
-
 .wedding_count {
     width: auto;
     height: auto;
@@ -76,8 +63,6 @@
 
 #nav {
     list-style-type: none;
-    /*background-color: rgba(255, 255, 255, .82);*/
-    /*position: fixed;*/
     width: 100%;
     left: 0;
     padding-bottom: 0px;
@@ -104,7 +89,6 @@
     text-align: center;
     vertical-align: middle;
     width: 100%;
-    position: fixed;
     left: 0;
     font-family: "Montserrat";
 }
@@ -122,29 +106,16 @@
 }
 
 
-/*#nav_names img {
-     height: 150px;
-     width: auto;
- }*/
-
-
-/* unvisited link */
-
 a:link {
     color: rgb(0, 0, 153);
     text-decoration: none;
 }
 
 
-/* visited link */
-
 a:visited {
     color: rgb(0, 0, 153);
     text-decoration: none;
 }
-
-
-/* mouse over link */
 
 a:hover {
     color: rgb(0, 0, 153);
@@ -161,8 +132,6 @@ li:hover {
 }
 
 
-/* selected link */
-
 a:active {
     color: rgb(0, 0, 153);
     text-decoration: none;
@@ -173,9 +142,14 @@ a:active {
 
 .love_story {
     font-family: "Homemade Apple";
+    text-align: center;
 }
 
 .story_text {
     text-align: center;
     font-family: "Montserrat";
+}
+
+.about-us h1, h2{
+    color: rgb(0, 0, 153);
 }
